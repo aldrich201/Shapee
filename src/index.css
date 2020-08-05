@@ -4,6 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Crimson Text', serif !important;
   font-weight: 400;
+  background-color: #fff;
 }
 
 code {

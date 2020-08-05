@@ -8,7 +8,8 @@
             "availableSizes": ["X", "L", "XL", "XXL"],
             "price": 749.99,
             "count": 0,
-		        "total": 749.99
+            "total": 749.99,
+            "clothingType": "dress"
         },
         {
             "_id": "dress2",
@@ -18,7 +19,8 @@
             "availableSizes": ["X", "M", "L"],
             "price": 899.99,
             "count": 0,
-		        "total": 899.99
+		        "total": 899.99,
+            "clothingType": "dress"
         },
         {
           "_id": "dress3",
@@ -28,7 +30,8 @@
           "availableSizes": ["X", "M", "L"],
           "price": 799.99,
           "count": 0,
-          "total": 799.99
+          "total": 799.99,
+          "clothingType": "dress"
         },
         {
           "_id": "dress4",
@@ -38,7 +41,8 @@
           "availableSizes": ["XL"],
           "price": 949.99,
           "count": 0,
-          "total": 949.99
+          "total": 949.99,
+          "clothingType": "dress"
         },
         {
           "_id": "dress5",
@@ -48,7 +52,8 @@
           "availableSizes": ["X", "L", "XL"],
           "price": 999.99,
           "count": 0,
-          "total": 999.99
+          "total": 999.99,
+          "clothingType": "dress"
         },
         {
           "_id": "dress6",
@@ -58,7 +63,8 @@
           "availableSizes": ["XL", "XXL"],
           "price": 849.99,
           "count": 0,
-          "total": 849.99
+          "total": 849.99,
+          "clothingType": "dress"
         }
     ]
 }
