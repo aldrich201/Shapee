@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import formatCurrency from '../../util';
 import * as actionTypes from '../../store/actions/actions';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const CartModal = (props) => {
 	return (
@@ -39,7 +40,9 @@ const CartModal = (props) => {
 							<div className="subtotal">Total: </div>
 							<div className="total">{formatCurrency(props.cartTotal)} </div>
 						</div>
-						<button className="checkout-button">Proceed to Checkout</button>
+						<Link to="/checkout">
+							<button className="checkout-button" onClick={props.onShowCart}>Proceed to Checkout</button>
+						</Link>
 					</div>
 				)}
 			</div>

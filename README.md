@@ -5,3 +5,10 @@ I've now reached a point where I'm comfortable with React lifecycles and the sta
 I realized that this project is not small enough to just handle state by passing it down to props. Which is why I'm transferring to redux. another reason is I'm now going to implement routing, which I will need to render only my homepage on one route.
 
 with this, I made a new branch where I added redux.
+
+Implement routing for checkout page and cart
+
+dependencies used:
+react-responsive-carousel
+react-step-progress-bar
+formik

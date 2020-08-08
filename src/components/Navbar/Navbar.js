@@ -17,7 +17,7 @@ const Navbar = (props) => {
 				<BusinessName title="Shapee" />
 			</Link>
 
-			<CartLogo showCart={props.showCart} />
+			<CartLogo />
 		</div>
 	);
 };
