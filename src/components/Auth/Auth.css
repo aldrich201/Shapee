@@ -1,0 +1,69 @@
+.shipping-container {
+    width: 60rem;
+    box-sizing: border-box;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 10rem 1rem 10rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -6px rgba(0,0,0,0.76);
+}
+
+.formik-errors {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.formik-submit {
+    margin: 1rem;
+    padding: 16px 8px;
+    width: 50%;
+    align-self: center;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    font-family: inherit;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    background-color: #D3AEA6;
+    color: white;
+}
+
+.formik-submit:focus {
+    outline: none
+}
+
+.formik-submit:active {
+    transform: scale(0.975);
+}
+
+.formik-submit:hover {
+    background-color: #234099;
+    color: white;
+}
+
+#firstName,
+#lastName,
+#password,
+#email,
+#confirmPassword {
+    margin-bottom: 5px;
+}
+
+#firstName:focus,
+#lastName:focus,
+#password:focus,
+#email:focus,
+#confirmPassword:focus {
+    background-color: rgba(254,254,254,0.5);
+    box-shadow: 0 0 3px 2px #D3AEA6;
+
+}
+
+#firstName:active,
+#lastName:active,
+#email:active,
+#password:active,
+#confirmPassword:active {
+    outline: none;
+}

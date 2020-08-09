@@ -7,7 +7,8 @@ import './App.css';
 import Home from './container/Home/Home';
 import Review from './container/Review/Review';
 import PaymentPage from './container/PaymentPage/PaymentPage.js';
-import NotFound from './NotFound'
+import NotFound from './NotFound';
+import Auth from './components/Auth/Auth';
 
 import CartModal from './components/Cart/CartModal.js';
 
@@ -21,6 +22,7 @@ class App extends Component {
 					<Route path="/" exact component={Home} />
 					<Route path="/checkout" component={Review} />
 					<Route path="/payment" component={PaymentPage} />
+					<Route path="/auth" component={Auth} />
 					<Route component={NotFound} />
 				</Switch>
 

@@ -12,3 +12,12 @@ dependencies used:
 react-responsive-carousel
 react-step-progress-bar
 formik
+
+Now, I will add authentication to the page where users must be signed in, in order to proceed to payment, they can view thier cart but will not be able to purchase them. 
+
+
+
+Once they proceeded with their payment they will be redirected to either sign in/up. After signing in/up, they will be redirected to the checkout page with all the items still in their cart.
+
+I will use formik and yup for the front end auth.
+for authentication, I've chosen firebase as the server.

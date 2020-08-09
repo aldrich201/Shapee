@@ -3,6 +3,7 @@ font-family: 'Roboto', sans-serif; */
 :root {
   --colorMain: #D3AEA6;
   --colorGrey: #FCFFFC;
+  --colorContrast: #2c5159;
 }
 
 ::selection{
@@ -40,25 +41,50 @@ a:visited {
 .logo {
   width: 40px;
   margin-left: 10vw;
-  flex: 0;
   margin-top: 1rem;
 }
 
 .title {
   font-size: 3.5rem;
+  margin-left: 3rem;
   font-weight: 700;
-  margin-left: 2rem;
   text-decoration: none;
   color: #040F0F;
+  transition: all 0.2s ease-in-out;
+}
+
+.title:hover {
+  background: linear-gradient(to right, #999, #444);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.auth {
+  margin-right: 3rem;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+  margin-left: auto;
+  transition: all .2s ease-in-out;
+}
+
+.auth:hover {
+  color: #eee;
+}
+
+.cart-logo:active,
+.auth:active {
+  transform: scale(0.95);
 }
 
 .cart-logo {
-  flex: 0;
-  margin-left: auto;
   margin-right: 10vw;
   margin-top: 1rem;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
+
+
 
 /* Carousel */
 .sub-text,
@@ -437,7 +463,8 @@ a:visited {
 .cart-count {
   grid-row: 3 / 4;
   grid-column: 3 / 4;
-  margin: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .decrement {
